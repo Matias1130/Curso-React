@@ -1,0 +1,26 @@
+.div_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.li_navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ul_navbar{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    transition: 1s ease;
+}
+
+.ul_navbar:hover{
+    transform: scale(1.3);
+}
+
+.a_navbar{
+    text-decoration: none;
+    color: black;
+}
+
