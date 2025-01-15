@@ -1,9 +1,0 @@
-.saludo{
-    font-family: monospace;
-    font-size: 40px;
-}
-
-.div_saludo{
-    display: flex;
-    justify-content: center;
-}

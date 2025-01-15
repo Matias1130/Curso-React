@@ -1,0 +1,32 @@
+.div__cards{
+    width: 25%;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-image: radial-gradient(circle at 48.62% 34.28%, #ffffff 0, #ffffff 12.5%, #ffffff 25%, #ffffff 37.5%, #ffffff 50%, #fbf3f6 62.5%, #f7e7ef 75%, #f2deea 87.5%, #ebd5e8 100%);
+}
+.card__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title__card{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card__description{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+.price{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.img{
+    width: 200px;
+}

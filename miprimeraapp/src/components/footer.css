@@ -1,0 +1,11 @@
+.footer_div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 150px;
+}
+
+.footer_text{
+    font-family: monospace;
+    font-size: 15px;
+}

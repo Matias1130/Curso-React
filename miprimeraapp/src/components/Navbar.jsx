@@ -1,18 +1,30 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import "./navbar.css"
 
-export default function Navbar() {
-    return (
-        <div className='div_navbar'>
-            <img src='/logo.png'></img>
-            <li className='li_navbar'>
-                <ul className='ul_navbar'><a className='a_navbar' href=''>Inicio</a></ul>
-                <ul className='ul_navbar'><a className='a_navbar' href=''>Productos</a></ul>
-                <ul className='ul_navbar'><a className='a_navbar' href=''>Nosotros</a></ul>
-                <ul className='ul_navbar'><a className='a_navbar' href=''>Contacto</a></ul>
-            </li>
-        </div>
-    )
+function Navbar() {
+  return (
+    <nav className='div_navbar'>
+      <img src='/logo.png' alt='Logo' className='logo' />
+      <ul className='ul_navbar'>
+        <li className='li_navbar'>
+          <Link className='a_navbar' to=''>Inicio</Link>
+        </li>
+        <li className='li_navbar'>
+          <Link className='a_navbar' to='/item'>Detalles</Link>
+        </li>
+        <li className='li_navbar'>
+          <Link className='a_navbar' to='/category/ropa'>Ropa</Link>
+        </li>
+        <li className='li_navbar'>
+          <Link className='a_navbar' to='/category/accesorios'>Accesorios</Link>
+        </li>
+        <li className='li_navbar'>
+          <Link className='a_navbar' to='/category/hogar'>Hogar</Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-
+export default Navbar;
