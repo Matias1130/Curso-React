@@ -11,9 +11,6 @@ function Navbar() {
           <Link className='a_navbar' to=''>Inicio</Link>
         </li>
         <li className='li_navbar'>
-          <Link className='a_navbar' to='/item'>Detalles</Link>
-        </li>
-        <li className='li_navbar'>
           <Link className='a_navbar' to='/category/ropa'>Ropa</Link>
         </li>
         <li className='li_navbar'>

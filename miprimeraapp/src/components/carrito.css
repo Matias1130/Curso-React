@@ -4,9 +4,10 @@
     display: flex;
     justify-content: end;
 }
-
-.img_carrito{
-    width: 80px;
-    height: 80px;
-    
+.count{
+    width: 20px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+    color: aliceblue;
 }

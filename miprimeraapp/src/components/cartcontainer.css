@@ -1,0 +1,101 @@
+.div__general{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.div__products{
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    font-family: monospace;
+    font-size: 25px;
+
+}
+.product__cart{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.button__delete{
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: aliceblue;
+    height: 50px;
+    cursor: pointer;
+}
+.div__compra{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.button{
+    width: 10%;
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#0084ff;
+	font-family:monospace;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.button:hover{
+    background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.button:active{
+    position:relative;
+	top:1px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo__form{
+    font-family: monospace;
+    font-size: 30px;
+}
+.label{
+    font-family: monospace;
+    font-size: 25px;
+    padding: 10px;
+}
+.input{
+    width: 50%;
+    border-radius: 10px;
+    border-left: none;
+    border-top: none;
+}
+.div__label{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.button_inicio{
+    width: 100%;
+    box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#0084ff;
+	font-family:monospace;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}

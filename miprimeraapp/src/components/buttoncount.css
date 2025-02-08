@@ -2,16 +2,15 @@
 .myButton {
    font-size: 15px;
    font-weight: bold;
-   background: #fedcdc;
+   background: #f57474;
    color: #fcfcfc;
    border: none;
    border-radius: 6px;
    padding: 5px 12px;
    letter-spacing: 0px;
    margin: 5px;
+   cursor: pointer;
 }
 
-.myButton:hover {
-   background: #f3bfbf;
-   color: #ffffff;
-}
+
+

@@ -1,0 +1,13 @@
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.loading{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(208, 166, 248);
+}

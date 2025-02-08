@@ -1,13 +1,14 @@
-import {getAsyncDataById} from "../data/getAsyncData"
+import {getAsyncDataById} from "../data/database"
 import { useState,useEffect } from "react"
 import ItemDetail from "./ItemDetail"
 import { useParams } from "react-router-dom"
+import Loader from "./Loader";
 
 
 function ItemDetailContainer() {
     const {id} = useParams();
 
-    const [itemInfo ,setItemInfo] = useState({})
+    const [itemInfo ,setItemInfo] = useState(null)
 
     useEffect(()=>{
         async function getItemData() {
@@ -15,14 +16,15 @@ function ItemDetailContainer() {
             setItemInfo(response)
         }
         getItemData()
-    },[id])
-    console.log(itemInfo)
-
-  return (
-    <div>
-      <ItemDetail {... itemInfo}></ItemDetail>
-    </div>
-  )
+    },[id]);
+    if (itemInfo)
+      return (
+        <div>
+          <ItemDetail {... itemInfo} id={id}></ItemDetail>
+        </div>
+      )
+    else
+      return <Loader/>
 }
 
 export default ItemDetailContainer
